@@ -33,5 +33,5 @@ for page in range(1, totalpages):
     wc = requests.get(pageurl, params=params, headers=headers)
     repos = wc.json()
     for repo in repos:
-        #git.Git(config.PROJPATH).clone(repo["git_url"])
+        git.Git(config.PROJPATH).clone(repo["git_url"])
         print("Cloning: ", repo["git_url"])
