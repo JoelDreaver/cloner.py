@@ -9,7 +9,7 @@ colorama==0.4.3
 configobj==5.0.6
 configparser==4.0.2
 coverage==5.1
-cryptography==2.9
+cryptography==3.2
 cycler==0.10.0
 Deprecated==1.2.9
 Flask==1.1.1
